@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "wurst",
+  "version": "v7.0pre16-MC1.14.4",
+
+  "name": "Wurst Client",
+  "description": "Wurst Wurst Wurst!",
+  "authors": [
+    "Alexander01998"
+  ],
+  "contact": {
+    "homepage": "https://www.wurstclient.net/",
+    "sources": "https://www.wurstclient.net/github/"
+  },
+
+  "license": "GPL-3.0-or-later",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.wurstclient.WurstInitializer"
+    ]
+  },
+  "mixins": [
+    "wurst.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
